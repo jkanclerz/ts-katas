@@ -1,8 +1,11 @@
-import { removeSpaces } from "./spaces";
+import { multiplicate } from "./manipulation";
 
-describe('spaces removal', () => {
-    it('remove space from string', () => {
-      let result = removeSpaces('0 700 700 700 ')
-      expect(result).toBe('0700700700');
+describe('this time no story make it working as below', () => {
+    it('multiplicate letters', () => {
+      expect(multiplicate('ZpglnRxqenU')).toBe("Z-Pp-Ggg-Llll-Nnnnn-Rrrrrr-Xxxxxxx-Qqqqqqqq-Eeeeeeeee-Nnnnnnnnnn-Uuuuuuuuuuu");
+      expect(multiplicate('NyffsGeyylB')).toBe("N-Yy-Fff-Ffff-Sssss-Gggggg-Eeeeeee-Yyyyyyyy-Yyyyyyyyy-Llllllllll-Bbbbbbbbbbb");
+      expect(multiplicate('MjtkuBovqrU')).toBe("M-Jj-Ttt-Kkkk-Uuuuu-Bbbbbb-Ooooooo-Vvvvvvvv-Qqqqqqqqq-Rrrrrrrrrr-Uuuuuuuuuuu");
+      expect(multiplicate('EvidjUnokmM')).toBe("E-Vv-Iii-Dddd-Jjjjj-Uuuuuu-Nnnnnnn-Oooooooo-Kkkkkkkkk-Mmmmmmmmmm-Mmmmmmmmmmm");
+      expect(multiplicate('HbideVbxncC')).toBe("H-Bb-Iii-Dddd-Eeeee-Vvvvvv-Bbbbbbb-Xxxxxxxx-Nnnnnnnnn-Cccccccccc-Ccccccccccc");
     });
 });
