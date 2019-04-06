@@ -1,0 +1,11 @@
+{
+    "files": [
+        "src/main.ts"
+    ],
+    "compilerOptions": {
+        "noImplicitAny": true,
+        "baseUrl": "./",  
+        "target": "es5",
+        "outDir": "./dist",
+    }
+}
